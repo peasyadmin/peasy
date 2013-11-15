@@ -1,0 +1,46 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\mingw\bin
+
+date:
+Fri Mar 29 09:18:07 2013
+
+e-type:
+<class 'socket.error'>
+
+e-value:
+[Errno 10054] An existing connection was forcibly closed by the remote host
+
+locals:
+    style: None
+    s: 'Closed\n'
+    self: <__main__.StdoutPseudoFile instance at 0x05B48FA8>
+
+platform:
+Windows-7-6.1.7601-SP1
+
+python-version:
+2.7.2
+
+self:
+    Buffer: ''
+    socket: <socket._socketobject object at 0x05B41F10>
+
+traceback:
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 1380, in OnCloseFrame
+    lpcberemiz_cmd.Log.write("Closed\n")
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 1855, in write
+    self.socket.send(s.encode('utf8'))
+<class 'socket.error'>: [Errno 10054] An existing connection was forcibly closed by the remote host
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

@@ -1,0 +1,109 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\mingw\bin
+
+date:
+Thu Apr 04 10:29:45 2013
+
+e-type:
+<type 'exceptions.AttributeError'>
+
+e-value:
+'NoneType' object has no attribute 'Stop'
+
+locals:
+    connector: None
+    self: <__main__.LPCProjectController instance at 0x05B7A530>
+
+platform:
+Windows-7-6.1.7601-SP1
+
+python-version:
+2.7.2
+
+self:
+    AbortTransferTimer: None
+    DefaultBuildPath: 'C:\\Predal\\Test export\\dd\\e9426571-6136-482e-9f2c-a1ecab1eb115\\build'
+    DebugThread: None
+    CTNParent: None
+    _VariablesList: None
+    StatusTimer: None
+    CurrentMode: None
+    Libraries: [<NativeLib.NativeLibrary instance at 0x05DA11E8>, <__main__.PLCLibrary instance at 0x05D89148>]
+    CTNParams: (u'BeremizRoot', <xmlclass.xmlclass.BeremizRoot object at 0x05BCF290>)
+    ProjectBuffer: <PLCControler.UndoBuffer instance at 0x05BCDC88>
+    AppFrame: None
+    _View: None
+    IECdebug_datas: {'__tick__': [<WeakKeyDictionary at 98180312>, [], 'Registered', None]}
+    MandatoryParams: None
+    ChangesToSave: False
+    ProgramOffset: 0
+    _connector: None
+    _Ticktime: 0
+    logger: <__main__.StdoutPseudoFile instance at 0x05B7A4B8>
+    Buffering: False
+    previous_mode: None
+    OnlineMode: 'APPLICATION'
+    BeremizRoot: <xmlclass.xmlclass.BeremizRoot object at 0x05BCF290>
+    ProjectSaved: True
+    StatusMethods: [{'shown': True, 'bitmap': 'Debug', 'method': '_Simulate', 'tooltip': 'Simulate PLC', 'name': 'Simulate'}, {'shown': False, 'bitmap': 'Run', 'method': '_Run', 'tooltip': 'Start PLC', 'name': 'Run'}, {'shown': False, 'bitmap': 'Stop', 'method': '_Stop', 'tooltip': 'Stop Running PLC', 'name': 'Stop'}, {'shown': True, 'bitmap': 'Build', 'method': '_Build', 'tooltip': 'Build project into build folder', 'name': 'Build'}, {'shown': False, 'bitmap': 'Transfer', 'method': '_Transfer', 'tooltip': 'Transfer PLC', 'name': 'Transfer'}]
+    BuildPath: 'C:\\Predal\\Test export\\dd\\e9426571-6136-482e-9f2c-a1ecab1eb115\\build'
+    OrigBuildPath: 'C:\\Projekti\\CS\\LpcComposer\\Project\\LpcComposer\\bin\\..\\..\\Media\\AppData\\Beremiz\\Driver'
+    ConnectorPath: 'COM10'
+    ConfNodeTypes: [{'name': 'Native', 'types': <xmlclass.xmlclass.project object at 0x05DBD0D0>}, {'name': 'LPC', 'types': <xmlclass.xmlclass.project object at 0x05E6FB10>}]
+    IECdebug_lock: <thread.lock object at 0x05717870>
+    TracedIECPath: []
+    ProgramChunks: []
+    Project: <xmlclass.xmlclass.project object at 0x05B7B950>
+    SimulationBuildPath: None
+    Classes: {u'TargetType_Linux': <class 'xmlclass.xmlclass.TargetType_Linux'>, u'TargetType_Xenomai': <class 'xmlclass.xmlclass.TargetType_Xenomai'>, u'BeremizRoot': <class 'xmlclass.xmlclass.BeremizRoot'>, u'BeremizRoot_TargetType': <class 'xmlclass.xmlclass.BeremizRoot_TargetType'>, u'BeremizRoot_Libraries': <class 'xmlclass.xmlclass.BeremizRoot_Libraries'>, u'TargetType_LPC': <class 'xmlclass.xmlclass.TargetType_LPC'>, u'TargetType_Win32': <class 'xmlclass.xmlclass.TargetType_Win32'>}
+    debug_break: True
+    iec2c_path: 'C:\\Projekti\\CS\\LpcComposer\\Applications\\Beremiz\\Beremiz\\matiec\\iec2c.exe'
+    CurrentElementEditing: None
+    CTNChildrenTypes: [('canfestival', <function fac at 0x05A893B0>, 'CANopen support'), ('c_ext', <function fac at 0x05A893F0>, 'C extension'), ('py_ext', <function fac at 0x05A89430>, 'Python file'), ('wxglade_hmi', <function fac at 0x05A89470>, 'WxGlade GUI'), ('svgui', <function fac at 0x05A894B0>, 'SVGUI'), ('LPCBus', <class '__main__.LPCBus'>, 'LPC bus'), ('CanOpen', <class __main__.LPCCanOpen at 0x05B69D18>, 'CanOpen bus')]
+    NextCompiledProject: <xmlclass.xmlclass.project object at 0x05B7BC30>
+    CurrentCompiledProject: None
+    _ProgramList: None
+    FilePath: 'C:\\Predal\\Test export\\dd\\e9426571-6136-482e-9f2c-a1ecab1eb115\\plc.xml'
+    ProjectPath: 'C:\\Predal\\Test export\\dd\\e9426571-6136-482e-9f2c-a1ecab1eb115'
+    ProgramFilePath: ''
+    previous_plcstate: 'Disconnected'
+    FileName: 'plc'
+    _builder: <LPCtarget.LPC_target instance at 0x05DA1BC0>
+    _IECPathToIdx: {}
+    CTNType: 'LPC'
+    ProjectBufferEnabled: True
+    LPCConnector: <LPCconnector.LPCAppObject.LPCAppObject instance at 0x05D893C8>
+    LastNewIndex: 0
+    ieclib_path: 'C:\\Projekti\\CS\\LpcComposer\\Applications\\Beremiz\\Beremiz\\matiec\\lib'
+    Children: {'CanOpen': [<ConfigTreeNode.FinalCTNClass instance at 0x05BF24E0>], 'LPCBus': [<ConfigTreeNode.FinalCTNClass object at 0x05F0CA50>, <ConfigTreeNode.FinalCTNClass object at 0x05F2A7F0>, <ConfigTreeNode.FinalCTNClass object at 0x05F2A4B0>, <ConfigTreeNode.FinalCTNClass object at 0x05F2A450>]}
+    DebugTimer: None
+
+traceback:
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14669, in <lambda>
+    lambda event: event.callable(*event.args, **event.kw) )
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 1883, in wx_evaluator
+    eval_res=callable(*args,**kwargs)
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 1965, in SetOnlineMode
+    self.CTR.SetOnlineMode(mode, path)
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 779, in SetOnlineMode
+    self.ApplyOnlineMode()
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 788, in ApplyOnlineMode
+    self.UpdateMethodsFromPLCStatus()
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 935, in UpdateMethodsFromPLCStatus
+    self._SetConnector(None)
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\beremiz\ProjectController.py", line 1368, in _SetConnector
+    self.StatusTimer.Stop()
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'Stop'
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

@@ -1,0 +1,38 @@
+########################################################
+# Peasy is easy
+########################################################
+
+INSTALL:
+
+1. Compiling and Installation in Linux:
+
+1.1. Install dependencies:
+
+     You need additional packages to compile "Peasy".
+
+     Just type these commands:
+     
+       sudo apt-get update
+       sudo apt-get install build-essential bison flex autoconf git-core libtool 
+       sudo apt-get install python-wxgtk2.8 python-wxtools python-jsonpickle
+       sudo apt-get install python-numpy checkinstall pyro python-pymodbus
+       sudo apt-get install python-pip python-nevow python-twisted python-soappy
+       sudo apt-get install python-psutil ncurses-dev python-dev python-wxglade
+       sudo apt-get remove python-serial
+       sudo pip install pyserial
+
+
+     If you are using a 64Bit Ubuntu based distribution,
+     then you have to install the package "ia32-libs" too.
+
+       sudo apt-get install ia32-libs
+
+1.2. Compile and install "Peasy":
+
+     There is a self written bash-script, which helps.
+     
+     To compile and install this application type this:
+
+       1. cd /path/to/espees_v0.2/
+       2. sh make.sh -m Peasy
+       3. sh make.sh -i Peasy

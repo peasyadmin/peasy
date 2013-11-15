@@ -1,0 +1,407 @@
+main.o: main.cc /usr/include/getopt.h /usr/include/ctype.h \
+ /usr/include/features.h /usr/include/arm-linux-gnueabihf/bits/predefs.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h /usr/include/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h /usr/include/xlocale.h \
+ /usr/include/string.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stddef.h \
+ /usr/include/stdlib.h /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h /usr/include/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigset.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/sysmacros.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/alloca.h absyntax/absyntax.hh /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdio_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/sys_errlist.h \
+ absyntax/absyntax.def /usr/include/c++/4.6/iostream \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++config.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/os_defines.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/cpu_defines.h \
+ /usr/include/c++/4.6/ostream /usr/include/c++/4.6/ios \
+ /usr/include/c++/4.6/iosfwd /usr/include/c++/4.6/bits/stringfwd.h \
+ /usr/include/c++/4.6/bits/postypes.h /usr/include/c++/4.6/cwchar \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/c++/4.6/exception /usr/include/c++/4.6/bits/char_traits.h \
+ /usr/include/c++/4.6/bits/stl_algobase.h \
+ /usr/include/c++/4.6/bits/functexcept.h \
+ /usr/include/c++/4.6/bits/exception_defines.h \
+ /usr/include/c++/4.6/bits/cpp_type_traits.h \
+ /usr/include/c++/4.6/ext/type_traits.h \
+ /usr/include/c++/4.6/ext/numeric_traits.h \
+ /usr/include/c++/4.6/bits/stl_pair.h /usr/include/c++/4.6/bits/move.h \
+ /usr/include/c++/4.6/bits/concept_check.h \
+ /usr/include/c++/4.6/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.6/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.6/bits/stl_iterator.h \
+ /usr/include/c++/4.6/debug/debug.h /usr/include/c++/4.6/bits/localefwd.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++locale.h \
+ /usr/include/c++/4.6/clocale /usr/include/locale.h \
+ /usr/include/arm-linux-gnueabihf/bits/locale.h \
+ /usr/include/c++/4.6/cctype /usr/include/c++/4.6/bits/ios_base.h \
+ /usr/include/c++/4.6/ext/atomicity.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/gthr.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/arm-linux-gnueabihf/bits/sched.h \
+ /usr/include/arm-linux-gnueabihf/bits/setjmp.h /usr/include/unistd.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/atomic_word.h \
+ /usr/include/c++/4.6/bits/locale_classes.h /usr/include/c++/4.6/string \
+ /usr/include/c++/4.6/bits/allocator.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++allocator.h \
+ /usr/include/c++/4.6/ext/new_allocator.h /usr/include/c++/4.6/new \
+ /usr/include/c++/4.6/bits/ostream_insert.h \
+ /usr/include/c++/4.6/bits/cxxabi_forced.h \
+ /usr/include/c++/4.6/bits/stl_function.h \
+ /usr/include/c++/4.6/backward/binders.h \
+ /usr/include/c++/4.6/bits/range_access.h \
+ /usr/include/c++/4.6/bits/basic_string.h \
+ /usr/include/c++/4.6/initializer_list \
+ /usr/include/c++/4.6/bits/basic_string.tcc \
+ /usr/include/c++/4.6/bits/locale_classes.tcc \
+ /usr/include/c++/4.6/streambuf /usr/include/c++/4.6/bits/streambuf.tcc \
+ /usr/include/c++/4.6/bits/basic_ios.h \
+ /usr/include/c++/4.6/bits/locale_facets.h /usr/include/c++/4.6/cwctype \
+ /usr/include/wctype.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/ctype_base.h \
+ /usr/include/c++/4.6/bits/streambuf_iterator.h \
+ /usr/include/c++/4.6/arm-linux-gnueabihf/./bits/ctype_inline.h \
+ /usr/include/c++/4.6/bits/locale_facets.tcc \
+ /usr/include/c++/4.6/bits/basic_ios.tcc \
+ /usr/include/c++/4.6/bits/ostream.tcc /usr/include/c++/4.6/istream \
+ /usr/include/c++/4.6/bits/istream.tcc config/config.h \
+ stage1_2/stage1_2.hh absyntax_utils/absyntax_utils.hh \
+ absyntax_utils/../util/symtable.hh \
+ absyntax_utils/../util/../absyntax/absyntax.hh /usr/include/c++/4.6/map \
+ /usr/include/c++/4.6/bits/stl_tree.h /usr/include/c++/4.6/bits/stl_map.h \
+ /usr/include/c++/4.6/bits/stl_multimap.h \
+ absyntax_utils/../util/symtable.cc absyntax_utils/../util/symtable.hh \
+ absyntax_utils/../util/dsymtable.hh absyntax_utils/../util/dsymtable.cc \
+ absyntax_utils/../absyntax/absyntax.hh \
+ absyntax_utils/../absyntax/visitor.hh \
+ absyntax_utils/../absyntax/absyntax.hh \
+ absyntax_utils/../absyntax/absyntax.def \
+ absyntax_utils/spec_init_separator.hh \
+ absyntax_utils/array_dimension_iterator.hh \
+ absyntax_utils/case_element_iterator.hh \
+ absyntax_utils/function_param_iterator.hh \
+ absyntax_utils/function_call_iterator.hh \
+ absyntax_utils/function_call_param_iterator.hh \
+ absyntax_utils/type_initial_value.hh \
+ absyntax_utils/search_fb_instance_decl.hh \
+ absyntax_utils/search_fb_typedecl.hh absyntax_utils/search_base_type.hh \
+ absyntax_utils/search_var_instance_decl.hh \
+ absyntax_utils/decompose_var_instance_name.hh \
+ absyntax_utils/search_varfb_instance_type.hh \
+ absyntax_utils/search_constant_type.hh \
+ absyntax_utils/search_il_operand_type.hh \
+ absyntax_utils/search_expression_type.hh \
+ absyntax_utils/add_en_eno_param_decl.hh \
+ absyntax_utils/get_sizeof_datatype.hh absyntax_utils/get_function_type.h \
+ absyntax_utils/function_type_decl.h
+
+/usr/include/getopt.h:
+
+/usr/include/ctype.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/bits/predefs.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/usr/include/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/string.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stddef.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/arm-linux-gnueabihf/bits/waitflags.h:
+
+/usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
+
+/usr/include/arm-linux-gnueabihf/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/arm-linux-gnueabihf/sys/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigset.h:
+
+/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/usr/include/arm-linux-gnueabihf/sys/sysmacros.h:
+
+/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+absyntax/absyntax.hh:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/4.6/include/stdarg.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdio_lim.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sys_errlist.h:
+
+absyntax/absyntax.def:
+
+/usr/include/c++/4.6/iostream:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++config.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/os_defines.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/cpu_defines.h:
+
+/usr/include/c++/4.6/ostream:
+
+/usr/include/c++/4.6/ios:
+
+/usr/include/c++/4.6/iosfwd:
+
+/usr/include/c++/4.6/bits/stringfwd.h:
+
+/usr/include/c++/4.6/bits/postypes.h:
+
+/usr/include/c++/4.6/cwchar:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+/usr/include/c++/4.6/exception:
+
+/usr/include/c++/4.6/bits/char_traits.h:
+
+/usr/include/c++/4.6/bits/stl_algobase.h:
+
+/usr/include/c++/4.6/bits/functexcept.h:
+
+/usr/include/c++/4.6/bits/exception_defines.h:
+
+/usr/include/c++/4.6/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.6/ext/type_traits.h:
+
+/usr/include/c++/4.6/ext/numeric_traits.h:
+
+/usr/include/c++/4.6/bits/stl_pair.h:
+
+/usr/include/c++/4.6/bits/move.h:
+
+/usr/include/c++/4.6/bits/concept_check.h:
+
+/usr/include/c++/4.6/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.6/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.6/bits/stl_iterator.h:
+
+/usr/include/c++/4.6/debug/debug.h:
+
+/usr/include/c++/4.6/bits/localefwd.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++locale.h:
+
+/usr/include/c++/4.6/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/arm-linux-gnueabihf/bits/locale.h:
+
+/usr/include/c++/4.6/cctype:
+
+/usr/include/c++/4.6/bits/ios_base.h:
+
+/usr/include/c++/4.6/ext/atomicity.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/gthr.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sched.h:
+
+/usr/include/arm-linux-gnueabihf/bits/setjmp.h:
+
+/usr/include/unistd.h:
+
+/usr/include/arm-linux-gnueabihf/bits/posix_opt.h:
+
+/usr/include/arm-linux-gnueabihf/bits/environments.h:
+
+/usr/include/arm-linux-gnueabihf/bits/confname.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/atomic_word.h:
+
+/usr/include/c++/4.6/bits/locale_classes.h:
+
+/usr/include/c++/4.6/string:
+
+/usr/include/c++/4.6/bits/allocator.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/c++allocator.h:
+
+/usr/include/c++/4.6/ext/new_allocator.h:
+
+/usr/include/c++/4.6/new:
+
+/usr/include/c++/4.6/bits/ostream_insert.h:
+
+/usr/include/c++/4.6/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.6/bits/stl_function.h:
+
+/usr/include/c++/4.6/backward/binders.h:
+
+/usr/include/c++/4.6/bits/range_access.h:
+
+/usr/include/c++/4.6/bits/basic_string.h:
+
+/usr/include/c++/4.6/initializer_list:
+
+/usr/include/c++/4.6/bits/basic_string.tcc:
+
+/usr/include/c++/4.6/bits/locale_classes.tcc:
+
+/usr/include/c++/4.6/streambuf:
+
+/usr/include/c++/4.6/bits/streambuf.tcc:
+
+/usr/include/c++/4.6/bits/basic_ios.h:
+
+/usr/include/c++/4.6/bits/locale_facets.h:
+
+/usr/include/c++/4.6/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/ctype_base.h:
+
+/usr/include/c++/4.6/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.6/arm-linux-gnueabihf/./bits/ctype_inline.h:
+
+/usr/include/c++/4.6/bits/locale_facets.tcc:
+
+/usr/include/c++/4.6/bits/basic_ios.tcc:
+
+/usr/include/c++/4.6/bits/ostream.tcc:
+
+/usr/include/c++/4.6/istream:
+
+/usr/include/c++/4.6/bits/istream.tcc:
+
+config/config.h:
+
+stage1_2/stage1_2.hh:
+
+absyntax_utils/absyntax_utils.hh:
+
+absyntax_utils/../util/symtable.hh:
+
+absyntax_utils/../util/../absyntax/absyntax.hh:
+
+/usr/include/c++/4.6/map:
+
+/usr/include/c++/4.6/bits/stl_tree.h:
+
+/usr/include/c++/4.6/bits/stl_map.h:
+
+/usr/include/c++/4.6/bits/stl_multimap.h:
+
+absyntax_utils/../util/symtable.cc:
+
+absyntax_utils/../util/symtable.hh:
+
+absyntax_utils/../util/dsymtable.hh:
+
+absyntax_utils/../util/dsymtable.cc:
+
+absyntax_utils/../absyntax/absyntax.hh:
+
+absyntax_utils/../absyntax/visitor.hh:
+
+absyntax_utils/../absyntax/absyntax.hh:
+
+absyntax_utils/../absyntax/absyntax.def:
+
+absyntax_utils/spec_init_separator.hh:
+
+absyntax_utils/array_dimension_iterator.hh:
+
+absyntax_utils/case_element_iterator.hh:
+
+absyntax_utils/function_param_iterator.hh:
+
+absyntax_utils/function_call_iterator.hh:
+
+absyntax_utils/function_call_param_iterator.hh:
+
+absyntax_utils/type_initial_value.hh:
+
+absyntax_utils/search_fb_instance_decl.hh:
+
+absyntax_utils/search_fb_typedecl.hh:
+
+absyntax_utils/search_base_type.hh:
+
+absyntax_utils/search_var_instance_decl.hh:
+
+absyntax_utils/decompose_var_instance_name.hh:
+
+absyntax_utils/search_varfb_instance_type.hh:
+
+absyntax_utils/search_constant_type.hh:
+
+absyntax_utils/search_il_operand_type.hh:
+
+absyntax_utils/search_expression_type.hh:
+
+absyntax_utils/add_en_eno_param_decl.hh:
+
+absyntax_utils/get_sizeof_datatype.hh:
+
+absyntax_utils/get_function_type.h:
+
+absyntax_utils/function_type_decl.h:
