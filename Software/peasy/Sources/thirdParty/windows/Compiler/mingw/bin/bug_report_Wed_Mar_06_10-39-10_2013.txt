@@ -1,0 +1,102 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\mingw\bin
+
+date:
+Wed Mar 06 10:39:10 2013
+
+e-type:
+<type 'exceptions.UnboundLocalError'>
+
+e-value:
+local variable 'new_window' referenced before assignment
+
+locals:
+    old_selected: 0
+    self: <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >
+    instance_category: 10
+    instance_type: u'P::functionBlock_DP1'
+    instance_path: u'config.resource1.Instan_1.functionBlock_DP10'
+    openedidx: 0
+
+platform:
+Windows-7-6.1.7601-SP1
+
+python-version:
+2.7.2
+
+self:
+    DisplayMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x5031a00> >
+    Log: <Beremiz.LogPseudoFile instance at 0x06337760>
+    CTR: <__main__.LPCProjectController instance at 0x0505FE18>
+    FindDialog: <dialogs.FindInPouDialog.FindInPouDialog; proxy of <Swig Object of type 'wxFrame *' at 0x61c6748> >
+    RefreshFunctions: {0: <bound method LPCBeremiz.RefreshTitle of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 1: <bound method LPCBeremiz.RefreshEditorToolBar of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 2: <bound method LPCBeremiz.RefreshFileMenu of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 3: <bound method LPCBeremiz.RefreshEditMenu of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 4: <bound method LPCBeremiz.RefreshDisplayMenu of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 5: <bound method LPCBeremiz.RefreshProjectTree of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 6: <bound method LPCBeremiz.RefreshPouInstanceVariablesPanel of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 7: <bound method LPCBeremiz.RefreshLibraryPanel of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 8: <bound method LPCBeremiz.RefreshScaling of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>, 9: <bound method LPCBeremiz.RefreshPageTitles of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x61c4978> >>}
+    Highlights: {}
+    SelectedItem: None
+    local_runtime_tmpdir: None
+    LastPanelSelected: <editors.LDViewer.LD_Viewer; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x61b77b8> >
+    TabsOpened: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x457d9c0> >
+    ConfNodeInfos: {<ConfigTreeNode.FinalCTNClass object at 0x06031C50>: {'visible': False, 'window': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x64de520> >, 'expanded': False, 'children': [], 'locations_infos': {'root.MC8.Non-volatile memory 1..100.NVMEM_W_69': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64fc068> >, 'infos': {'name': 'NVMEM_W_69', 'var_name': 'NVMEM_W_69', 'IEC_type': 'UINT', 'location': '%MW4.1.4.2.69', 'size': 'W', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.Non-volatile memory 1..100': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64fbc18> >, 'infos': {'location': '', 'type': 2, 'name': 'Non-volatile memory 1..100', 'icon': None}, 'expanded': False, 'children': ['root.MC8.Non-volatile memory 1..100.NVMEM_W_1', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_2', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_3', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_4', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_5', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_6', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_7', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_8', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_9', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_10', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_11', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_12', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_13', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_14', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_15', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_16', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_17', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_18', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_19', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_20', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_21', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_22', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_23', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_24', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_25', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_26', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_27', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_28', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_29', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_30', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_31', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_32', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_33', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_34', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_35', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_36', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_37', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_38', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_39', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_40', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_41', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_42', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_43', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_44', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_45', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_46', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_47', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_48', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_49', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_50', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_51', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_52', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_53', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_54', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_55', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_56', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_57', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_58', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_59', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_60', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_61', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_62', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_63', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_64', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_65', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_66', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_67', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_68', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_69', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_70', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_71', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_72', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_73', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_74', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_75', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_76', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_77', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_78', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_79', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_80', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_81', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_82', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_83', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_84', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_85', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_86', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_87', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_88', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_89', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_90', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_91', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_92', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_93', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_94', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_95', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_96', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_97', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_98', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_99', 'root.MC8.Non-volatile memory 1..100.NVMEM_W_100']}, 'root.MC8.MBS Coil 1..64.MB_CL_26': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64e62e8> >, 'infos': {'name': 'MB_CL_26', 'var_name': 'MB_CL_26', 'IEC_type': 'BOOL', 'location': '%MX4.1.0.25', 'size': 'X', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.MBS Coil 1..64.MB_CL_27': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64e62f8> >, 'infos': {'name': 'MB_CL_27', 'var_name': 'MB_CL_27', 'IEC_type': 'BOOL', 'location': '%MX4.1.0.26', 'size': 'X', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.MBS Coil 1..64.MB_CL_24': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64e62c8> >, 'infos': {'name': 'MB_CL_24', 'var_name': 'MB_CL_24', 'IEC_type': 'BOOL', 'location': '%MX4.1.0.23', 'size': 'X', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.MBS Coil 1..64.MB_CL_25': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64e62d8> >, 'infos': {'name': 'MB_CL_25', 'var_name': 'MB_CL_25', 'IEC_type': 'BOOL', 'location': '%MX4.1.0.24', 'size': 'X', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.MBS Coil 1..64.MB_CL_22': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64e62a8> >, 'infos': {'name': 'MB_CL_22', 'var_name': 'MB_CL_22', 'IEC_type': 'BOOL', 'location': '%MX4.1.0.21', 'size': 'X', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.MBS Coil 1..64.MB_CL_23': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64e62b8> >, 'infos': {'name': 'MB_CL_23', 'var_name': 'MB_CL_23', 'IEC_type': 'BOOL', 'location': '%MX4.1.0.22', 'size': 'X', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.MBS Coil 1..64.MB_CL_20': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64e6288> >, 'infos': {'name': 'MB_CL_20', 'var_name': 'MB_CL_20', 'IEC_type': 'BOOL', 'location': '%MX4.1.0.19', 'size': 'X', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.MBS Coil 1..64.MB_CL_21': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64e6298> >, 'infos': {'name': 'MB_CL_21', 'var_name': 'MB_CL_21', 'IEC_type': 'BOOL', 'location': '%MX4.1.0.20', 'size': 'X', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.Non-volatile memory 1..100.NVMEM_W_12': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64fbcd8> >, 'infos': {'name': 'NVMEM_W_12', 'var_name': 'NVMEM_W_12', 'IEC_type': 'UINT', 'location': '%MW4.1.4.2.12', 'size': 'W', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.Non-volatile memory 1..100.NVMEM_W_13': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64fbce8> >, 'infos': {'name': 'NVMEM_W_13', 'var_name': 'NVMEM_W_13', 'IEC_type': 'UINT', 'location': '%MW4.1.4.2.13', 'size': 'W', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.Non-volatile memory 1..100.NVMEM_W_10': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64fbcb8> >, 'infos': {'name': 'NVMEM_W_10', 'var_name': 'NVMEM_W_10', 'IEC_type': 'UINT', 'location': '%MW4.1.4.2.10', 'size': 'W', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.Non-volatile memory 1..100.NVMEM_W_11': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64fbcc8> >, 'infos': {'name': 'NVMEM_W_11', 'var_name': 'NVMEM_W_11', 'IEC_type': 'UINT', 'location': '%MW4.1.4.2.11', 'size': 'W', 'type': 5, 'description': ''}, 'expanded': False, 'children': []}, 'root.MC8.Non-volatile memory 1..100.NVMEM_W_16': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x64fbd18> >, 'infos': {'name': 'NVMEM_W_16', 'var_name': 'NVMEM_W_16', 'IEC_type': 'UINT', 'location': '%MW4.1.4.2.16', 'size': 'W', 'type': 5, 'description': ''}, 'expanded': False, 'c
+    PLCConfig: <wx._windows.ScrolledWindow; proxy of <Swig Object of type 'wxScrolledWindow *' at 0x61b6bb0> >
+    ProjectTree: <controls.CustomTree.CustomTree; proxy of <Swig Object of type 'wxPyTreeCtrl *' at 0x6217448> >
+    LocationImageList: <wx._gdi.ImageList; proxy of <Swig Object of type 'wxImageList *' at 0x61c2ab0> >
+    TreeImageDict: {0: 5, 3: 6, 4: 7, 5: 8, 6: 9, 7: 10, 8: 11, 9: 12, 10: 13, 11: 14, 12: 22, 13: 23, 14: 24, 15: 25, 16: 26, 17: 15, 18: 16, 19: 17, 20: 18, 21: 19, 22: 20, 23: 21, 25: 27, 'LD': 3, 'IL': 0, 'ST': 1, 'FBD': 2, 'SFC': 4}
+    Panes: {'MenuToolBar': <wx._controls.ToolBar; proxy of <Swig Object of type 'wxToolBar *' at 0x61c5f00> >, 'StatusToolBar': <wx._controls.ToolBar; proxy of <Swig Object of type 'wxToolBar *' at 0x5f31038> >, 'EditorToolBar': <wx._controls.ToolBar; proxy of <Swig Object of type 'wxToolBar *' at 0x61c60a8> >}
+    EditMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x5031980> >
+    TreeImageList: <wx._gdi.ImageList; proxy of <Swig Object of type 'wxImageList *' at 0x61c1fa0> >
+    EnableDebug: True
+    Config: <wx._misc.ConfigBase; proxy of <Swig Object of type 'wxConfigBase *' at 0x60b51d8> >
+    runtime_port: None
+    EditMenuSize: 16
+    PouInstanceVariablesPanel: <controls.PouInstanceVariablesPanel.PouInstanceVariablesPanel; proxy of <Swig Object of type 'wxPanel *' at 0x61c6ed8> >
+    RecentProjectsMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x5031880> >
+    TabsImageListIndexes: {}
+    PLCParamsSizer: <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x5f2e268> >
+    CurrentMenu: 'debug'
+    AuiTabCtrl: [<wx.aui.AuiTabCtrl; proxy of <Swig Object of type 'wxAuiTabCtrl *' at 0x63ec048> >]
+    Controler: <__main__.LPCProjectController instance at 0x0505FE18>
+    BottomNoteBook: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x61bc2b0> >
+    DrawingMode: 1
+    SearchResultPanel: <controls.SearchResultPanel.SearchResultPanel; proxy of <Swig Object of type 'wxPanel *' at 0x61c7030> >
+    PrintData: <wx._windows.PrintData; proxy of <Swig Object of type 'wxPrintData *' at 0x3c240f0> >
+    AUIManager: <wx.aui.AuiManager; proxy of <Swig Object of type 'wxAuiManager *' at 0x4dacfb0> >
+    ProjectPanel: <wx._windows.SplitterWindow; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x62169f8> >
+    LibraryPanel: <controls.LibraryPanel.LibraryPanel; proxy of <Swig Object of type 'wxPanel *' at 0x61c72e0> >
+    DebugVariablePanel: <controls.DebugVariablePanel.DebugVariablePanel; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x61b6840> >
+    LocationImageDict: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5}
+    PLCConfigMainSizer: <wx._core.FlexGridSizer; proxy of <Swig Object of type 'wxFlexGridSizer *' at 0x502eeb0> >
+    ConfNodeMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x5031800> >
+    Starting: False
+    MainTabs: {'LogConsole': (<wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x4fcd950> >, 'Log Console'), 'PLCConfig': (<wx._windows.ScrolledWindow; proxy of <Swig Object of type 'wxScrolledWindow *' at 0x61b6bb0> >, 'Topology'), 'SearchResultPanel': (<controls.SearchResultPanel.SearchResultPanel; proxy of <Swig Object of type 'wxPanel *' at 0x61c7030> >, 'Search'), 'ProjectPanel': (<wx._windows.SplitterWindow; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x62169f8> >, 'Project'), 'LibraryPanel': (<controls.LibraryPanel.LibraryPanel; proxy of <Swig Object of type 'wxPanel *' at 0x61c72e0> >, 'Library'), 'DebugVariablePanel': (<controls.DebugVariablePanel.DebugVariablePanel; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x61b6840> >, 'Debugger')}
+    SearchParams: None
+    LogConsole: <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x4fcd950> >
+    LeftNoteBook: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x532fc50> >
+    FileMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x5031900> >
+    ConfNodeTreeSizer: <wx._core.FlexGridSizer; proxy of <Swig Object of type 'wxFlexGridSizer *' at 0x502ef70> >
+    DefaultPerspective: {'notebooks': {'leftnotebook': {'size': (294, 521), 'pos': (1, 1), 'pages': [(('main', 'PLCConfig'), True), (('main', 'ProjectPanel'), False)]}, 'rightnotebook': {'size': (244, 227), 'pos': (1, 1), 'pages': [(('main', 'LibraryPanel'), True), (('main', 'DebugVariablePanel'), False)]}, 'bottomnotebook': {'size': (686, 265), 'pos': (1, 1), 'pages': [(('main', 'SearchResultPanel'), False), (('main', 'LogConsole'), True)]}}, 'perspective': u'layout2|name=ProjectPane;caption=;state=2044;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=300;besth=500;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ResultPane;caption=;state=2044;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=800;besth=300;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LibraryPane;caption=;state=2044;dir=2;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=TabsPane;caption=;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=16;besth=16;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MenuToolBar;caption=Menu ToolBar;state=2108144;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=280;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EditorToolBar;caption=Editor ToolBar;state=2108146;dir=1;layer=10;row=0;pos=2;prop=100000;bestw=32;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=StatusToolBar;caption=Status ToolBar;state=2108144;dir=1;layer=10;row=0;pos=291;prop=100000;bestw=64;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,1,0)=302|dock_size(3,0,0)=290|dock_size(2,0,0)=252|dock_size(5,0,0)=18|dock_size(1,10,0)=34|'}
+    this: <Swig Object of type 'wxFrame *' at 0x61c4978>
+    TabsImageList: <wx._gdi.ImageList; proxy of <Swig Object of type 'wxImageList *' at 0x61bd6f8> >
+    CurrentEditorToolBar: [185]
+    HelpMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x5031a80> >
+    RightNoteBook: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x61bc590> >
+    local_runtime: None
+    PageSetupData: <wx._windows.PageSetupDialogData; proxy of <Swig Object of type 'wxPageSetupDialogData *' at 0x38fbb00> >
+
+traceback:
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\beremiz\controls\PouInstanceVariablesPanel.py", line 308, in OnDebugButtonClick
+    self.PouTagName)
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\beremiz\IDEFrame.py", line 2061, in OpenDebugViewer
+    if new_window is not None:
+<type 'exceptions.UnboundLocalError'>: local variable 'new_window' referenced before assignment
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

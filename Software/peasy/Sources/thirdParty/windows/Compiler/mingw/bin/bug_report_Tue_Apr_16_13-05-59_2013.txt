@@ -1,0 +1,65 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Program Files\Smarteh\LpcComposer5\Beremiz\mingw\bin
+
+date:
+Tue Apr 16 13:05:59 2013
+
+e-type:
+<type 'exceptions.AttributeError'>
+
+e-value:
+'LPCProjectNodeEditor' object has no attribute 'ParamsEditorSizer'
+
+locals:
+    parent: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x4e889f8> >
+    self: <__main__.LPCProjectNodeEditor; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x5244fc0> >
+    controler: <__main__.LPCProjectController instance at 0x04FB82D8>
+    buttons_sizer: <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x55c25f8> >
+    window: <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e98708> >
+    tagname: u'C::konf'
+    configuration: u'konf'
+
+platform:
+Windows-7-6.1.7600
+
+python-version:
+2.7.2
+
+self:
+    VariableEditorPanel: <controls.VariablePanel.VariablePanel; proxy of <Swig Object of type 'wxPanel *' at 0x5383bc0> >
+    ProjectProperties: <controls.ProjectPropertiesPanel.ProjectPropertiesPanel; proxy of <Swig Object of type 'wxNotebook *' at 0x5390e18> >
+    ConfNodeNoteBook: <wx._controls.Notebook; proxy of <Swig Object of type 'wxNotebook *' at 0x5390c70> >
+    this: <Swig Object of type 'wxSplitterWindow *' at 0x5244fc0>
+    MenuItems: []
+    Controler: <__main__.LPCProjectController instance at 0x04FB82D8>
+    VariableEditor: None
+    ParamsEditor: None
+    Debug: False
+    Editor: <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x5383a68> >
+    TagName: u'C::konf'
+    ParentWindow: <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e98708> >
+    Icon: <wx._gdi.Bitmap; proxy of <Swig Object of type 'wxBitmap *' at 0x51a26a8> >
+
+traceback:
+  File "C:\Program Files\Smarteh\LpcComposer5\Beremiz\beremiz\Beremiz.py", line 1044, in OnProjectTreeItemActivated
+    self.CTR._OpenView()
+  File "C:\Program Files\Smarteh\LpcComposer5\Beremiz\beremiz\ProjectController.py", line 1060, in _OpenView
+    return ConfigTreeNode._OpenView(self, self.CTNName(), onlyopened)
+  File "C:\Program Files\Smarteh\LpcComposer5\Beremiz\beremiz\ConfigTreeNode.py", line 433, in _OpenView
+    self._View = self.EditorType(app_frame.TabsOpened, self, app_frame)
+  File "C:\Program Files\Smarteh\LpcComposer5\Beremiz\beremiz\editors\ProjectNodeEditor.py", line 37, in __init__
+    self.ParamsEditorSizer.InsertSizer(0, buttons_sizer, 0, border=5,
+<type 'exceptions.AttributeError'>: 'LPCProjectNodeEditor' object has no attribute 'ParamsEditorSizer'
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

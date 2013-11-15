@@ -1,0 +1,102 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\mingw\bin
+
+date:
+Wed Mar 06 10:30:24 2013
+
+e-type:
+<type 'exceptions.UnboundLocalError'>
+
+e-value:
+local variable 'new_window' referenced before assignment
+
+locals:
+    old_selected: 0
+    self: <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >
+    instance_category: 10
+    instance_type: u'P::functionBlock_DP1'
+    instance_path: u'config.resource1.Instan_1.functionBlock_DP10'
+    openedidx: 0
+
+platform:
+Windows-7-6.1.7601-SP1
+
+python-version:
+2.7.2
+
+self:
+    DisplayMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x4ffa930> >
+    Log: <Beremiz.LogPseudoFile instance at 0x06203760>
+    CTR: <__main__.LPCProjectController instance at 0x05029E18>
+    FindDialog: <dialogs.FindInPouDialog.FindInPouDialog; proxy of <Swig Object of type 'wxFrame *' at 0x5f10498> >
+    RefreshFunctions: {0: <bound method LPCBeremiz.RefreshTitle of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 1: <bound method LPCBeremiz.RefreshEditorToolBar of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 2: <bound method LPCBeremiz.RefreshFileMenu of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 3: <bound method LPCBeremiz.RefreshEditMenu of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 4: <bound method LPCBeremiz.RefreshDisplayMenu of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 5: <bound method LPCBeremiz.RefreshProjectTree of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 6: <bound method LPCBeremiz.RefreshPouInstanceVariablesPanel of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 7: <bound method LPCBeremiz.RefreshLibraryPanel of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 8: <bound method LPCBeremiz.RefreshScaling of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>, 9: <bound method LPCBeremiz.RefreshPageTitles of <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x4e05f90> >>}
+    Highlights: {}
+    SelectedItem: None
+    local_runtime_tmpdir: None
+    LastPanelSelected: <editors.LDViewer.LD_Viewer; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x4b962a8> >
+    TabsOpened: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x454a258> >
+    ConfNodeInfos: {<ConfigTreeNode.FinalCTNClass object at 0x060085B0>: {'visible': False, 'window': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x5f0c1e8> >, 'expanded': False, 'children': [], 'locations_infos': {'root': {'window': None, 'expanded': False, 'children': []}}}, <ConfigTreeNode.FinalCTNClass instance at 0x05DF8648>: {'visible': False, 'window': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x5f79d50> >, 'expanded': False, 'children': [], 'locations_infos': {'root': {'window': None, 'expanded': False, 'children': []}}}, <ConfigTreeNode.FinalCTNClass instance at 0x05DF8850>: {'visible': False, 'window': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x5f7a158> >, 'expanded': False, 'children': (<ConfigTreeNode.FinalCTNClass instance at 0x05DF8648>, <ConfigTreeNode.FinalCTNClass instance at 0x05E59850>)}, <ConfigTreeNode.FinalCTNClass object at 0x06008970>: {'visible': False, 'window': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x638efe0> >, 'expanded': False, 'children': [], 'locations_infos': {'root': {'window': None, 'expanded': False, 'children': []}}}, <ConfigTreeNode.FinalCTNClass object at 0x060089B0>: {'visible': False, 'window': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x638f3e8> >, 'expanded': False, 'children': [], 'locations_infos': {'root.DP1 [1].Feedback.DP1_1_iBDEn': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639ce98> >, 'infos': {'name': 'DP1_1_iBDEn', 'var_name': 'DP1_1_iBDEn', 'IEC_type': 'BOOL', 'location': '%IX3.1.1.6', 'size': 'X', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Command.DP1_1_oRTSet': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639cf78> >, 'infos': {'name': 'DP1_1_oRTSet', 'var_name': 'DP1_1_oRTSet', 'IEC_type': 'UINT', 'location': '%QW3.1.14', 'size': 'W', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Feedback.DP2_2_iRem': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d1b8> >, 'infos': {'name': 'DP2_2_iRem', 'var_name': 'DP2_2_iRem', 'IEC_type': 'BOOL', 'location': '%IX3.2.0.2', 'size': 'X', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Feedback.DP2_2_iCoolV': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d198> >, 'infos': {'name': 'DP2_2_iCoolV', 'var_name': 'DP2_2_iCoolV', 'IEC_type': 'BOOL', 'location': '%IX3.2.0.4', 'size': 'X', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Command.DP2_2_oTmpEn': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d378> >, 'infos': {'name': 'DP2_2_oTmpEn', 'var_name': 'DP2_2_oTmpEn', 'IEC_type': 'BOOL', 'location': '%QX3.2.1.0', 'size': 'X', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Feedback.DP2_2_iTAct': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d138> >, 'infos': {'name': 'DP2_2_iTAct', 'var_name': 'DP2_2_iTAct', 'IEC_type': 'UINT', 'location': '%IW3.2.16', 'size': 'W', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Command.DP1_1_oDeadB': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639cf58> >, 'infos': {'name': 'DP1_1_oDeadB', 'var_name': 'DP1_1_oDeadB', 'IEC_type': 'UINT', 'location': '%QW3.1.10', 'size': 'W', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Feedback.DP1_1_i2Pipe': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x5f5add0> >, 'infos': {'name': 'DP1_1_i2Pipe', 'var_name': 'DP1_1_i2Pipe', 'IEC_type': 'BOOL', 'location': '%IX3.1.0.7', 'size': 'X', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Feedback.DP1_1_iComm': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x5f5ad90> >, 'infos': {'name': 'DP1_1_iComm', 'var_name': 'DP1_1_iComm', 'IEC_type': 'BOOL', 'location': '%IX3.1.0.0', 'size': 'X', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Feedback.DP1_1_iPIOut': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x5f5ae90> >, 'infos': {'name': 'DP1_1_iPIOut', 'var_name': 'DP1_1_iPIOut', 'IEC_type': 'UINT', 'location': '%IW3.1.18', 'size': 'W', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Feedback.DP2_2_iLight': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d158> >, 'infos': {'name': 'DP2_2_iLight', 'var_name': 'DP2_2_iLight', 'IEC_type': 'UINT', 'location': '%IW3.2.20', 'size': 'W', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Command.DP1_1_oSysOff': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639cfd8> >, 'infos': {'name': 'DP1_1_oSysOff', 'var_name': 'DP1_1_oSysOff', 'IEC_type': 'BOOL', 'location': '%QX3.1.0.5', 'size': 'X', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Feedback.DP2_2_iWEn': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d1e8> >, 'infos': {'name': 'DP2_2_iWEn', 'var_name': 'DP2_2_iWEn', 'IEC_type': 'BOOL', 'location': '%IX3.2.1.7', 'size': 'X', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Command.DP1_1_oBDSts': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d068> >, 'infos': {'name': 'DP1_1_oBDSts', 'var_name': 'DP1_1_oBDSts', 'IEC_type': 'BOOL', 'location': '%QX3.1.1.4', 'size': 'X', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Feedback.DP1_1_iRem': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x5f5ada0> >, 'infos': {'name': 'DP1_1_iRem', 'var_name': 'DP1_1_iRem', 'IEC_type': 'BOOL', 'location': '%IX3.1.0.2', 'size': 'X', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2]': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d0b8> >, 'infos': {'location': '3.2.x', 'type': 1, 'name': 'DP2 [2]', 'icon': None}, 'expanded': False, 'children': ['root.DP2 [2].Feedback', 'root.DP2 [2].Command']}, 'root.DP1 [1].Feedback.DP1_1_iDeadB': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x5f5ae60> >, 'infos': {'name': 'DP1_1_iDeadB', 'var_name': 'DP1_1_iDeadB', 'IEC_type': 'UINT', 'location': '%IW3.1.10', 'size': 'W', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Command.DP1_1_oPPar': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639cf38> >, 'infos': {'name': 'DP1_1_oPPar', 'var_name': 'DP1_1_oPPar', 'IEC_type': 'UINT', 'location': '%QW3.1.6', 'size': 'W', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1]': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x5f7c3a8> >, 'infos': {'location': '3.1.x', 'type': 1, 'name': 'DP1 [1]', 'icon': None}, 'expanded': False, 'children': ['root.DP1 [1].Feedback', 'root.DP1 [1].Command']}, 'root.DP1 [1].Command.DP1_1_oTmpEn': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d0a8> >, 'infos': {'name': 'DP1_1_oTmpEn', 'var_name': 'DP1_1_oTmpEn', 'IEC_type': 'BOOL', 'location': '%QX3.1.1.0', 'size': 'X', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Command.DP1_1_oFanSet': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639cf88> >, 'infos': {'name': 'DP1_1_oFanSet', 'var_name': 'DP1_1_oFanSet', 'IEC_type': 'UINT', 'location': '%QW3.1.16', 'size': 'W', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Feedback.DP2_2_iDeadB': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d118> >, 'infos': {'name': 'DP2_2_iDeadB', 'var_name': 'DP2_2_iDeadB', 'IEC_type': 'UINT', 'location': '%IW3.2.10', 'size': 'W', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Feedback.DP2_2_iPPar': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d0f8> >, 'infos': {'name': 'DP2_2_iPPar', 'var_name': 'DP2_2_iPPar', 'IEC_type': 'UINT', 'location': '%IW3.2.6', 'size': 'W', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Command.DP2_2_oWEn': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d328> >, 'infos': {'name': 'DP2_2_oWEn', 'var_name': 'DP2_2_oWEn', 'IEC_type': 'BOOL', 'location': '%QX3.2.1.7', 'size': 'X', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Command.DP2_2_oSysOff': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d2d8> >, 'infos': {'name': 'DP2_2_oSysOff', 'var_name': 'DP2_2_oSysOff', 'IEC_type': 'BOOL', 'location': '%QX3.2.0.5', 'size': 'X', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Feedback.DP2_2_iBDEn': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d1f8> >, 'infos': {'name': 'DP2_2_iBDEn', 'var_name': 'DP2_2_iBDEn', 'IEC_type': 'BOOL', 'location': '%IX3.2.1.6', 'size': 'X', 'type': 3, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP2 [2].Command.DP2_2_oWSts': {'item': <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x639d348> >, 'infos': {'name': 'DP2_2_oWSts', 'var_name': 'DP2_2_oWSts', 'IEC_type': 'BOOL', 'location': '%QX3.2.1.5', 'size': 'X', 'type': 4, 'description': ''}, 'expanded': False, 'children': []}, 'root.DP1 [1].Command.D
+    PLCConfig: <wx._windows.ScrolledWindow; proxy of <Swig Object of type 'wxScrolledWindow *' at 0x61a6370> >
+    ProjectTree: <controls.CustomTree.CustomTree; proxy of <Swig Object of type 'wxPyTreeCtrl *' at 0x61a55b0> >
+    LocationImageList: <wx._gdi.ImageList; proxy of <Swig Object of type 'wxImageList *' at 0x5e40d68> >
+    TreeImageDict: {0: 5, 3: 6, 4: 7, 5: 8, 6: 9, 7: 10, 8: 11, 9: 12, 10: 13, 11: 14, 12: 22, 13: 23, 14: 24, 15: 25, 16: 26, 17: 15, 18: 16, 19: 17, 20: 18, 21: 19, 22: 20, 23: 21, 25: 27, 'LD': 3, 'IL': 0, 'ST': 1, 'FBD': 2, 'SFC': 4}
+    Panes: {'MenuToolBar': <wx._controls.ToolBar; proxy of <Swig Object of type 'wxToolBar *' at 0x5f0fc50> >, 'StatusToolBar': <wx._controls.ToolBar; proxy of <Swig Object of type 'wxToolBar *' at 0x5f10640> >, 'EditorToolBar': <wx._controls.ToolBar; proxy of <Swig Object of type 'wxToolBar *' at 0x5f0fdf8> >}
+    EditMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x4ffa8b0> >
+    TreeImageList: <wx._gdi.ImageList; proxy of <Swig Object of type 'wxImageList *' at 0x5e40258> >
+    EnableDebug: True
+    Config: <wx._misc.ConfigBase; proxy of <Swig Object of type 'wxConfigBase *' at 0x5e18e48> >
+    runtime_port: None
+    EditMenuSize: 16
+    PouInstanceVariablesPanel: <controls.PouInstanceVariablesPanel.PouInstanceVariablesPanel; proxy of <Swig Object of type 'wxPanel *' at 0x5f0ab10> >
+    RecentProjectsMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x4ffa7b0> >
+    TabsImageListIndexes: {}
+    PLCParamsSizer: <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x5f5ba20> >
+    CurrentMenu: 'debug'
+    AuiTabCtrl: [<wx.aui.AuiTabCtrl; proxy of <Swig Object of type 'wxAuiTabCtrl *' at 0x6304200> >]
+    Controler: <__main__.LPCProjectController instance at 0x05029E18>
+    BottomNoteBook: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x5f28590> >
+    DrawingMode: 1
+    SearchResultPanel: <controls.SearchResultPanel.SearchResultPanel; proxy of <Swig Object of type 'wxPanel *' at 0x5f0ac68> >
+    PrintData: <wx._windows.PrintData; proxy of <Swig Object of type 'wxPrintData *' at 0x3934c68> >
+    AUIManager: <wx.aui.AuiManager; proxy of <Swig Object of type 'wxAuiManager *' at 0x4ea9e88> >
+    ProjectPanel: <wx._windows.SplitterWindow; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x61a47f0> >
+    LibraryPanel: <controls.LibraryPanel.LibraryPanel; proxy of <Swig Object of type 'wxPanel *' at 0x5f0af18> >
+    DebugVariablePanel: <controls.DebugVariablePanel.DebugVariablePanel; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x61a6000> >
+    LocationImageDict: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5}
+    PLCConfigMainSizer: <wx._core.FlexGridSizer; proxy of <Swig Object of type 'wxFlexGridSizer *' at 0x4fb9fa8> >
+    ConfNodeMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x4ffa730> >
+    Starting: False
+    MainTabs: {'LogConsole': (<wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x4f89608> >, 'Log Console'), 'PLCConfig': (<wx._windows.ScrolledWindow; proxy of <Swig Object of type 'wxScrolledWindow *' at 0x61a6370> >, 'Topology'), 'SearchResultPanel': (<controls.SearchResultPanel.SearchResultPanel; proxy of <Swig Object of type 'wxPanel *' at 0x5f0ac68> >, 'Search'), 'ProjectPanel': (<wx._windows.SplitterWindow; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x61a47f0> >, 'Project'), 'LibraryPanel': (<controls.LibraryPanel.LibraryPanel; proxy of <Swig Object of type 'wxPanel *' at 0x5f0af18> >, 'Library'), 'DebugVariablePanel': (<controls.DebugVariablePanel.DebugVariablePanel; proxy of <Swig Object of type 'wxSplitterWindow *' at 0x61a6000> >, 'Debugger')}
+    SearchParams: None
+    LogConsole: <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x4f89608> >
+    LeftNoteBook: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x5023258> >
+    FileMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x4ffa830> >
+    ConfNodeTreeSizer: <wx._core.FlexGridSizer; proxy of <Swig Object of type 'wxFlexGridSizer *' at 0x4fba068> >
+    DefaultPerspective: {'notebooks': {'leftnotebook': {'size': (294, 521), 'pos': (1, 1), 'pages': [(('main', 'PLCConfig'), True), (('main', 'ProjectPanel'), False)]}, 'rightnotebook': {'size': (244, 227), 'pos': (1, 1), 'pages': [(('main', 'LibraryPanel'), True), (('main', 'DebugVariablePanel'), False)]}, 'bottomnotebook': {'size': (686, 265), 'pos': (1, 1), 'pages': [(('main', 'SearchResultPanel'), False), (('main', 'LogConsole'), True)]}}, 'perspective': u'layout2|name=ProjectPane;caption=;state=2044;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=300;besth=500;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ResultPane;caption=;state=2044;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=800;besth=300;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LibraryPane;caption=;state=2044;dir=2;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=TabsPane;caption=;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=16;besth=16;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MenuToolBar;caption=Menu ToolBar;state=2108144;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=280;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EditorToolBar;caption=Editor ToolBar;state=2108146;dir=1;layer=10;row=0;pos=2;prop=100000;bestw=32;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=StatusToolBar;caption=Status ToolBar;state=2108144;dir=1;layer=10;row=0;pos=291;prop=100000;bestw=64;besth=32;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,1,0)=302|dock_size(3,0,0)=290|dock_size(2,0,0)=252|dock_size(5,0,0)=18|dock_size(1,10,0)=34|'}
+    this: <Swig Object of type 'wxFrame *' at 0x4e05f90>
+    TabsImageList: <wx._gdi.ImageList; proxy of <Swig Object of type 'wxImageList *' at 0x5f16330> >
+    CurrentEditorToolBar: [185]
+    HelpMenu: <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x4ffa9b0> >
+    RightNoteBook: <wx.aui.AuiNotebook; proxy of <Swig Object of type 'wxAuiNotebook *' at 0x4549f78> >
+    local_runtime: None
+    PageSetupData: <wx._windows.PageSetupDialogData; proxy of <Swig Object of type 'wxPageSetupDialogData *' at 0x372ada0> >
+
+traceback:
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\beremiz\controls\PouInstanceVariablesPanel.py", line 308, in OnDebugButtonClick
+    self.PouTagName)
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\beremiz\IDEFrame.py", line 2061, in OpenDebugViewer
+    if new_window is not None:
+<type 'exceptions.UnboundLocalError'>: local variable 'new_window' referenced before assignment
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

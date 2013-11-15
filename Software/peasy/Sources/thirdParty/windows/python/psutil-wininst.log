@@ -1,0 +1,46 @@
+*** Installation started 2013/09/06 23:49 ***
+Source: C:\Users\clausismus\Downloads\psutil-1.0.1.win32-py2.7(1).exe
+999 Root Key: HKEY_CURRENT_USER
+020 Reg DB Key: [Software\Microsoft\Windows\CurrentVersion\Uninstall]psutil-py2.7
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\psutil-py2.7]DisplayName=Python 2.7 psutil-1.0.1
+040 Reg DB Value: [Software\Microsoft\Windows\CurrentVersion\Uninstall\psutil-py2.7]UninstallString="C:\Python27\Removepsutil.exe" -u "C:\Python27\psutil-wininst.log"
+200 File Copy: C:\Python27\Lib\site-packages\_psutil_mswindows.pyd
+100 Made Dir: C:\Python27\Lib\site-packages\psutil
+200 File Copy: C:\Python27\Lib\site-packages\psutil\error.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_common.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_compat.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_error.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psbsd.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_pslinux.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psmswindows.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psosx.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psposix.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_pssunos.py
+200 File Copy: C:\Python27\Lib\site-packages\psutil\__init__.py
+100 Made Dir: C:\Python27\Lib\site-packages\psutil-1.0.1-py2.7.egg-info
+200 File Copy: C:\Python27\Lib\site-packages\psutil-1.0.1-py2.7.egg-info\dependency_links.txt
+200 File Copy: C:\Python27\Lib\site-packages\psutil-1.0.1-py2.7.egg-info\PKG-INFO
+200 File Copy: C:\Python27\Lib\site-packages\psutil-1.0.1-py2.7.egg-info\SOURCES.txt
+200 File Copy: C:\Python27\Lib\site-packages\psutil-1.0.1-py2.7.egg-info\top_level.txt
+200 File Copy: C:\Python27\Lib\site-packages\psutil\__init__.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_pssunos.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psposix.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psosx.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psmswindows.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_pslinux.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psbsd.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_error.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_compat.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_common.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\error.pyc
+200 File Copy: C:\Python27\Lib\site-packages\psutil\__init__.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_pssunos.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psposix.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psosx.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psmswindows.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_pslinux.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_psbsd.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_error.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_compat.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\_common.pyo
+200 File Copy: C:\Python27\Lib\site-packages\psutil\error.pyo

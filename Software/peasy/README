@@ -1,0 +1,66 @@
+########################################################
+# Peasy is Easy
+########################################################
+
+README:
+
+1. About "Peasy":
+   
+   "Peasy" is a automation project for the "Raspberry Pi"
+    and for x86 and x86_64 personal computers.
+    With this software you can do following.
+
+    1. "Peasy" combines the software below 
+       intelligent in a tray icon.
+       With these you can program the 
+       Peasy hardware.
+
+    2. "Peasy-Micro" is an IDE to program  
+       racks and modules.
+
+       It's based on the "Arduino IDE".
+
+    3. "Peasy-PLC" is an IDE to program the
+       software programmable logic controller
+       and it contains it.
+
+       It's based on "Beremiz".
+
+    4. "Peasy-Server" runs the software
+       programmable logic controller and
+       a website based on "Node.js".
+
+    5. "Maqetta" is a software to create 
+       Web-Apps for Desktop, Tablets and
+       Smartphones.
+
+    6. "KiCad" is a software to schemate
+       and layout your own pcbs.
+
+
+2. How to compile and install:
+
+   Please read the textfile "INSTALL" to get more information about
+   compiling and installing this application.
+
+
+3. Which license uses "Peasy":
+
+   "Peasy" and "Peasy-Server" uses the "GNU GENERAL PUBLIC LICENSE - Version 2" license.
+   Please read the textfile "COPYING" to get more information about
+   this license.
+
+   Please read the textfile "COPYING" from the other softwares.
+   These textfiles are in the repective folders.
+         
+
+4. How can I contribute to this project:
+ 	
+   This software is at a early stage and not well testet.
+   So send me feedback, bugs-messages, source-code, etc..
+   Send me things, which make in your opinion this software better.
+   Also check the textfile TODO if you like to help.
+
+   Homepage:    https://peasy.tk
+   Development: https://github.com/peasyadmin/peasy
+   E-mail:      peasy@privatdemail.net

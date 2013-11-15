@@ -1,0 +1,41 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Program Files\Smarteh\LpcComposer5\Beremiz\mingw\bin
+
+date:
+Wed Apr 17 09:36:37 2013
+
+e-type:
+<class 'wx._core.PyAssertionError'>
+
+e-value:
+C++ assertion "item.IsOk()" failed at ..\..\src\msw\treectrl.cpp(963) in wxTreeCtrl::GetItemText(): invalid tree item
+
+locals:
+    args: (<controls.CustomTree.CustomTree; proxy of <Swig Object of type 'wxPyTreeCtrl *' at 0x5009108> >, <wx._controls.TreeItemId; proxy of <Swig Object of type 'wxTreeItemId *' at 0x56f8570> >)
+    kwargs: {}
+
+platform:
+Windows-7-6.1.7600
+
+python-version:
+2.7.2
+
+traceback:
+  File "C:\Program Files\Smarteh\LpcComposer5\Beremiz\beremiz\Beremiz.py", line 1032, in OnProjectTreeRightUp
+    parent_name = self.ProjectTree.GetItemText(parent)
+  File "C:\Program Files\Smarteh\LpcComposer5\Beremiz\python\lib\site-packages\wx-2.8-msw-unicode\wx\_controls.py", line 5303, in GetItemText
+    return _controls_.TreeCtrl_GetItemText(*args, **kwargs)
+<class 'wx._core.PyAssertionError'>: C++ assertion "item.IsOk()" failed at ..\..\src\msw\treectrl.cpp(963) in wxTreeCtrl::GetItemText(): invalid tree item
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

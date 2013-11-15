@@ -1,0 +1,51 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\mingw\bin
+
+date:
+Thu Apr 04 08:36:55 2013
+
+e-type:
+<type 'exceptions.AttributeError'>
+
+e-value:
+'NoneType' object has no attribute 'AppendText'
+
+locals:
+    text: 'command >Exit\r\n'
+    self: <wx._core.PyOnDemandOutputWindow instance at 0x0364D530>
+
+platform:
+Windows-7-6.1.7601-SP1
+
+python-version:
+2.7.2
+
+self:
+    softspace: 0
+    parent: None
+    triggers: []
+    text: <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x5e1e6b0> >
+    frame: <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x5e0bc60> >
+    title: 'wxPython: stdout/stderr'
+    pos: wx.Point(-1, -1)
+    size: (450, 300)
+
+traceback:
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14669, in <lambda>
+    lambda event: event.callable(*event.args, **event.kw) )
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 7853, in __write
+    self.text.AppendText(text)
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'AppendText'
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

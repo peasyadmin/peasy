@@ -1,0 +1,107 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\mingw\bin
+
+date:
+Thu Apr 04 09:42:08 2013
+
+e-type:
+<type 'exceptions.AttributeError'>
+
+e-value:
+'NoneType' object has no attribute 'Start'
+
+locals:
+    connector: <LPCconnector.LPCBootObject.LPCBootObject instance at 0x05D29F80>
+    self: <__main__.LPCProjectController instance at 0x05B5E530>
+
+platform:
+Windows-7-6.1.7601-SP1
+
+python-version:
+2.7.2
+
+self:
+    AbortTransferTimer: None
+    DefaultBuildPath: 'C:\\Predal\\Test export\\dd\\e9426571-6136-482e-9f2c-a1ecab1eb115\\build'
+    DebugThread: None
+    CTNParent: None
+    _VariablesList: None
+    StatusTimer: <wx._misc.Timer; proxy of <Swig Object of type 'wxPyTimer *' at 0x499c1e0> >
+    CurrentMode: None
+    Libraries: [<NativeLib.NativeLibrary instance at 0x05D34F80>, <__main__.PLCLibrary instance at 0x05E85378>]
+    CTNParams: (u'BeremizRoot', <xmlclass.xmlclass.BeremizRoot object at 0x05B9C290>)
+    ProjectBuffer: <PLCControler.UndoBuffer instance at 0x05B9AC88>
+    AppFrame: <__main__.LPCBeremiz; proxy of <Swig Object of type 'wxFrame *' at 0x5a00c78> >
+    _View: None
+    IECdebug_datas: {'__tick__': [<WeakKeyDictionary at 97770152>, [], 'Registered', None]}
+    MandatoryParams: None
+    ChangesToSave: False
+    ProgramOffset: 0
+    _connector: <LPCconnector.LPCBootObject.LPCBootObject instance at 0x05D29F80>
+    _Ticktime: 0
+    logger: <Beremiz.LogPseudoFile instance at 0x05D3D580>
+    Buffering: False
+    previous_mode: None
+    OnlineMode: 'BOOTLOADER'
+    BeremizRoot: <xmlclass.xmlclass.BeremizRoot object at 0x05B9C290>
+    ProjectSaved: True
+    StatusMethods: [{'shown': True, 'bitmap': 'Debug', 'method': '_Simulate', 'tooltip': 'Simulate PLC', 'name': 'Simulate'}, {'shown': True, 'bitmap': 'Run', 'method': '_Run', 'tooltip': 'Start PLC', 'name': 'Run'}, {'shown': False, 'bitmap': 'Stop', 'method': '_Stop', 'tooltip': 'Stop Running PLC', 'name': 'Stop'}, {'shown': True, 'bitmap': 'Build', 'method': '_Build', 'tooltip': 'Build project into build folder', 'name': 'Build'}, {'shown': True, 'bitmap': 'Transfer', 'method': '_Transfer', 'tooltip': 'Transfer PLC', 'name': 'Transfer'}]
+    BuildPath: 'C:\\Predal\\Test export\\dd\\e9426571-6136-482e-9f2c-a1ecab1eb115\\build'
+    OrigBuildPath: 'C:\\Projekti\\CS\\LpcComposer\\Project\\LpcComposer\\bin\\..\\..\\Media\\AppData\\Beremiz\\Driver'
+    ConnectorPath: 'COM9'
+    ConfNodeTypes: [{'name': 'Native', 'types': <xmlclass.xmlclass.project object at 0x05D5A030>}, {'name': 'LPC', 'types': <xmlclass.xmlclass.project object at 0x05D36BB0>}]
+    IECdebug_lock: <thread.lock object at 0x05717870>
+    TracedIECPath: []
+    ProgramChunks: []
+    Project: <xmlclass.xmlclass.project object at 0x05B5F950>
+    SimulationBuildPath: None
+    Classes: {u'TargetType_Linux': <class 'xmlclass.xmlclass.TargetType_Linux'>, u'TargetType_Xenomai': <class 'xmlclass.xmlclass.TargetType_Xenomai'>, u'BeremizRoot': <class 'xmlclass.xmlclass.BeremizRoot'>, u'BeremizRoot_TargetType': <class 'xmlclass.xmlclass.BeremizRoot_TargetType'>, u'BeremizRoot_Libraries': <class 'xmlclass.xmlclass.BeremizRoot_Libraries'>, u'TargetType_LPC': <class 'xmlclass.xmlclass.TargetType_LPC'>, u'TargetType_Win32': <class 'xmlclass.xmlclass.TargetType_Win32'>}
+    debug_break: True
+    iec2c_path: 'C:\\Projekti\\CS\\LpcComposer\\Applications\\Beremiz\\Beremiz\\matiec\\iec2c.exe'
+    CurrentElementEditing: None
+    CTNChildrenTypes: [('canfestival', <function fac at 0x05A8D3B0>, 'CANopen support'), ('c_ext', <function fac at 0x05A8D3F0>, 'C extension'), ('py_ext', <function fac at 0x05A8D430>, 'Python file'), ('wxglade_hmi', <function fac at 0x05A8D470>, 'WxGlade GUI'), ('svgui', <function fac at 0x05A8D4B0>, 'SVGUI'), ('LPCBus', <class '__main__.LPCBus'>, 'LPC bus'), ('CanOpen', <class __main__.LPCCanOpen at 0x05B4DD18>, 'CanOpen bus')]
+    NextCompiledProject: <xmlclass.xmlclass.project object at 0x05B5FC30>
+    CurrentCompiledProject: None
+    _ProgramList: None
+    FilePath: 'C:\\Predal\\Test export\\dd\\e9426571-6136-482e-9f2c-a1ecab1eb115\\plc.xml'
+    ProjectPath: 'C:\\Predal\\Test export\\dd\\e9426571-6136-482e-9f2c-a1ecab1eb115'
+    ProgramFilePath: ''
+    previous_plcstate: 'Connected'
+    FileName: 'plc'
+    _builder: None
+    _IECPathToIdx: {}
+    CTNType: 'LPC'
+    ProjectBufferEnabled: True
+    LPCConnector: <LPCconnector.LPCBootObject.LPCBootObject instance at 0x05D29F80>
+    LastNewIndex: 0
+    ieclib_path: 'C:\\Projekti\\CS\\LpcComposer\\Applications\\Beremiz\\Beremiz\\matiec\\lib'
+    Children: {'CanOpen': [<ConfigTreeNode.FinalCTNClass instance at 0x05BBF4E0>], 'LPCBus': [<ConfigTreeNode.FinalCTNClass object at 0x05FEDBF0>, <ConfigTreeNode.FinalCTNClass object at 0x060B9DD0>, <ConfigTreeNode.FinalCTNClass object at 0x05E72430>, <ConfigTreeNode.FinalCTNClass object at 0x060C71B0>]}
+    DebugTimer: None
+
+traceback:
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14669, in <lambda>
+    lambda event: event.callable(*event.args, **event.kw) )
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 1883, in wx_evaluator
+    eval_res=callable(*args,**kwargs)
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 1965, in SetOnlineMode
+    self.CTR.SetOnlineMode(mode, path)
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 779, in SetOnlineMode
+    self.ApplyOnlineMode()
+  File "C:\Projekti\CS\LpcComposer\Project\LpcComposer\bin\..\..\..\Applications\Beremiz\Beremiz\LPCManager\LPCManager.py", line 785, in ApplyOnlineMode
+    self._SetConnector(self.LPCConnector)
+  File "C:\Projekti\CS\LpcComposer\Applications\Beremiz\Beremiz\beremiz\ProjectController.py", line 1365, in _SetConnector
+    self.StatusTimer.Start(milliseconds=500, oneShot=False)
+<type 'exceptions.AttributeError'>: 'NoneType' object has no attribute 'Start'
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

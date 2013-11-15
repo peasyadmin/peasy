@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.0"
+   viewBox="0 0 16 16"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="qubodup_16x16px-capable_black_and_white_icons_13.svg"
+   inkscape:export-filename="/home/clausismus/peasy48x48.png"
+   inkscape:export-xdpi="269.79568"
+   inkscape:export-ydpi="269.79568">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="980"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="9.6758535"
+     inkscape:cy="25.758266"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3036">
+      <stop
+         style="stop-color:#008000;stop-opacity:1;"
+         offset="0"
+         id="stop3038" />
+      <stop
+         style="stop-color:#008000;stop-opacity:0;"
+         offset="1"
+         id="stop3040" />
+    </linearGradient>
+    <pattern
+       id="pattern3409"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       patternTransform="translate(-9,7)"
+       height="9">
+      <g
+         id="g3405"
+         transform="translate(9,-7)">
+        <path
+           id="path3401"
+           stroke-linejoin="bevel"
+           d="m-8.5 7.5v8"
+           stroke="#fff"
+           stroke-miterlimit="0"
+           fill="none" />
+        <path
+           id="path3403"
+           stroke-linejoin="bevel"
+           d="m-7.5 7.5v8"
+           stroke="#000"
+           stroke-miterlimit="0"
+           fill="none" />
+      </g>
+    </pattern>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3036"
+       id="linearGradient3042"
+       x1="1.8125"
+       y1="2.9375"
+       x2="2.625"
+       y2="26.0625"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3036-5"
+       id="linearGradient3042-9"
+       x1="1.8125"
+       y1="2.9375"
+       x2="2.625"
+       y2="26.0625"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3036-5">
+      <stop
+         style="stop-color:#008000;stop-opacity:1;"
+         offset="0"
+         id="stop3038-6" />
+      <stop
+         style="stop-color:#008000;stop-opacity:0;"
+         offset="1"
+         id="stop3040-6" />
+    </linearGradient>
+  </defs>
+  <a
+     id="a3017-8"
+     style="fill:#ffffff;fill-opacity:1"
+     transform="translate(-0.01211668,8.545337e-4)">
+    <path
+       inkscape:connector-curvature="0"
+       stroke-miterlimit="0"
+       d="m 0.5,1.5 1,-1 h 13 l 1,1 v 13 l -1,1 h -13 l -1,-1 v -13 z"
+       id="path3355-7"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:0" />
+  </a>
+  <a
+     id="a3017"
+     style="fill:#008000">
+    <path
+       stroke-miterlimit="0"
+       d="m0.5 1.5l1-1h13l1 1v13l-1 1h-13l-1-1v-13z"
+       id="path3355"
+       style="fill:url(#linearGradient3042);fill-opacity:1"
+       stroke-linejoin="bevel"
+       stroke="#000"
+       fill="#fff" />
+  </a>
+  <path
+     id="path3357"
+     stroke-linejoin="bevel"
+     d="m13.5 9.5v-1h-11v1l3 4h5l3-4z"
+     stroke="#000"
+     stroke-miterlimit="0"
+     fill="url(#pattern3409)" />
+  <path
+     id="path3378"
+     stroke-linejoin="bevel"
+     d="m2.5 5.5l2-2 2 2"
+     stroke="#000"
+     stroke-miterlimit="0"
+     fill="none" />
+  <path
+     id="path3380"
+     d="m9.5 5.5l2-2 2 2"
+     stroke-miterlimit="0"
+     stroke-linejoin="bevel"
+     stroke="#000"
+     fill="none" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

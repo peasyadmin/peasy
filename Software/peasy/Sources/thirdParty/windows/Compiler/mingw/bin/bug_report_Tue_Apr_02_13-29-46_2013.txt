@@ -1,0 +1,44 @@
+app-title:
+beremiz
+
+app-version:
+$Revision$
+
+cwd:
+C:\Program Files\Smarteh\LpcComposer5\Beremiz\mingw\bin
+
+date:
+Tue Apr 02 13:29:46 2013
+
+e-type:
+<class 'wx._core.PyDeadObjectError'>
+
+e-value:
+The C++ part of the DurationEditorDialog object has been deleted, attribute access no longer allowed.
+
+locals:
+    self: wxPython wrapper for DELETED DurationEditorDialog object! (The C++ object no longer exists.)
+    args: ('Destroy',)
+
+platform:
+Windows-7-6.1.7600
+
+python-version:
+2.7.2
+
+self:
+    _name: 'DurationEditorDialog'
+
+traceback:
+  File "C:\Program Files\Smarteh\LpcComposer5\Beremiz\beremiz\controls\DurationCellEditor.py", line 77, in OnEditButtonClick
+    dialog.Destroy()
+  File "C:\Program Files\Smarteh\LpcComposer5\Beremiz\python\lib\site-packages\wx-2.8-msw-unicode\wx\_core.py", line 14619, in __getattr__
+    raise PyDeadObjectError(self.attrStr % self._name)
+<class 'wx._core.PyDeadObjectError'>: The C++ part of the DurationEditorDialog object has been deleted, attribute access no longer allowed.
+
+wx-platform:
+__WXMSW__
+
+wx-version:
+2.8.12.1
+

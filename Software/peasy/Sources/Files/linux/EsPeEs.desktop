@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=EsPeEs
+Exec=EsPeEs
+Icon=/usr/share/EsPeEs/GUIs/Icons/espees.png
+Terminal=false
+Categories=Development;
