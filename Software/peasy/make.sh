@@ -25,38 +25,24 @@ Clean ()
 
 PrepareLinux ()
 {
-  mkdir -p build/Peasy
-  cp -r Sources/Drivers build/Peasy
-  cp -r Sources/Libraries build/Peasy
-  cp -r Sources/thirdParty/all/beremiz build/Peasy
-  cp -r Sources/thirdParty/linux/CanFestival-3 build/Peasy
-  cp Sources/EsPeEs.py build/Peasy
-  cp Sources/EsPeEs-Client.py build/Peasy
-  cp Sources/EsPeEs-Server.py build/Peasy
+  mkdir -p build/linux/Peasy
+  cp -r Sources/Libraries build/linux/Peasy
+  cp -r Sources/Peasy-PLC build/linux/Peasy
+  cp Sources/EsPeEs.py build/linux/Peasy
+  cp Sources/EsPeEs-Server.py build/linux/Peasy
 
   if [ "$arch" = "armv6l" ];
   then
-    cp -r Sources/thirdParty/linux/Matiec-Raspbian build/Peasy
-    mv build/Peasy/Matiec-Raspbian build/Peasy/matiec
+    cp -r Sources/thirdParty/linux/Matiec-Raspbian build/linux/Peasy
+    mv build/linux/Peasy/Matiec-Raspbian build/linux/Peasy/matiec
   else
-    cp -r Sources/thirdParty/linux/Matiec-Ubuntu build/Peasy
-    mv build/Peasy/Matiec-Ubuntu build/Peasy/matiec
+    cp -r Sources/thirdParty/linux/Matiec-Ubuntu build/linux/Peasy
+    mv build/linux/Peasy/Matiec-Ubuntu build/linux/Peasy/matiec
   fi
 
-  cd build/Peasy
-
-  # Build CanFestival-3
-  cd CanFestival-3/
-  if [ "$arch" = "armv6l" ];
-  then
-    ./configure --prefix=/usr --arch=armhf
-  else
-    ./configure --prefix=/usr
-  fi
-  make
+  cd build/linux/Peasy
 
   # Build matiec
-  cd ../
   cd matiec
   autoreconf
   ./configure --prefix=/usr
@@ -68,7 +54,12 @@ PrepareLinux ()
 
 PrepareWindows ()
 {
-  echo
+  mkdir -p build/windows/Peasy
+  cp -r Sources/Libraries build/windows/Peasy
+  cp -r Sources/Peasy-PLC build/windows/Peasy
+  cp Sources/EsPeEs.py build/windows/Peasy
+  cp Sources/EsPeEs-Server.py build/windows/Peasy
+  cp -r Sources/thirdParty/windows/* build/windows/Peasy
 }
 
 DebianPackage ()

@@ -1,6 +1,0 @@
-
-                  <xsd:element name="Linux32Bit">
-                    <xsd:complexType>
-                      %(toolchain_gcc)s
-                    </xsd:complexType>
-                  </xsd:element>

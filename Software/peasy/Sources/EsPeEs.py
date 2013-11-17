@@ -4405,7 +4405,7 @@ class ProcessManagement(object):
     
     def startEsPeEsCoder(self,projectPath):
         if self.espeesCoderRunning() == False:
-            args = '"' + self.__getPythonExecutablePath__() + '" "' + os.getcwd() + os.sep + 'beremiz' + os.sep + 'EsPeEs-Coder.py" "' + os.path.join(os.getcwd() + os.sep + 'EsPeEs-Coder', projectPath) + '"'
+            args = '"' + self.__getPythonExecutablePath__() + '" "' + os.getcwd() + os.sep + 'Peasy-PLC' + os.sep + 'Peasy-PLC.py" "' + os.path.join(os.getcwd() + os.sep + 'EsPeEs-Coder', projectPath) + '"'
             if sys.platform == 'win32':
                 self.__EsPeEsCoderProcess = subprocess.Popen(args, stdout=subprocess.PIPE, shell=False, **self.__getProcessArgs__())
             else:
@@ -4477,7 +4477,7 @@ class ProcessManagement(object):
         Utilities.writeToFile('', os.path.join(espees_plc, 'extra_files.txt'))
         Utilities.writeToFile(project, os.path.join(espees_plc, 'lasttransferedPLC.md5'))
         if self.plcIsRunning() == False:
-            args = '"' + self.__getPythonExecutablePath__() + '" "' + os.getcwd() + os.sep + 'beremiz' + os.sep + 'Beremiz_service.py" ' + '"-a 1" "-x 0" "-t 0" "' + espees_plc + '"'
+            args = '"' + self.__getPythonExecutablePath__() + '" "' + os.getcwd() + os.sep + 'Peasy-PLC' + os.sep + 'Peasy-Software-PLC.py" ' + '"-a 1" "-x 0" "-t 0" "' + espees_plc + '"'
             if sys.platform == 'win32':
                 self.__PLCProcess = subprocess.Popen(args, stdout=subprocess.PIPE, shell=False, **self.__getProcessArgs__())
             else:
@@ -4493,7 +4493,7 @@ class ProcessManagement(object):
             if os.path.exists(espees_plc) == True:
                 Utilities.removeDirectory(espees_plc)
             Utilities.makeDirectory(espees_plc)
-            args = '"' + self.__getPythonExecutablePath__() + '" "' + os.getcwd() + os.sep + 'beremiz' + os.sep + 'Beremiz_service.py"' + ' "-x 0" "-t 0" "' + espees_plc + '"'
+            args = '"' + self.__getPythonExecutablePath__() + '" "' + os.getcwd() + os.sep + 'Peasy-PLC' + os.sep + 'Peasy-Software-PLC.py"' + ' "-x 0" "-t 0" "' + espees_plc + '"'
             if sys.platform == 'win32':
                 self.__PLCProcess = subprocess.Popen(args, stdout=subprocess.PIPE, shell=False, **self.__getProcessArgs__())
             else:
